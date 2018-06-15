@@ -43,19 +43,43 @@
   background-repeat: no-repeat;
   color: #ffffff;
   font-size: 17px;
+  z-index: 20;
 
+}
+a{
+  margin-top: 4px; margin-right: 10px
+}
+a:hover{
+  text-decoration: none;
+  border-color: #1c1c1c;
+  border-radius: 30px;
+}
+a:focus{
+  text-decoration: none;
+}
+#in{
+  background-image: url('image/bc1.jpg');
+  z-index: 9;
 }
 
 </style>
 <body>
 <div id="header" class="w3-center">
-    <div class="w3-bar " style="bottom:-16px;">
-    <a href="#" class="w3-bar-item w3-button w3-hover-red " style="margin-top: 4px; border-style: ridge; border-width: 1px; border-radius: 20px; margin-right: 25px">Giới thiệu </a>
-    <a href="gdg.html" class="w3-bar-item w3-button light-grey " style="margin-top: 4px; border-style: ridge; border-width: 1px; border-radius: 20px; margin-right: 25px">Khóa học</a>
-    <a href="#" class="w3-bar-item w3-button light-grey" style="margin-top: 4px; border-style: ridge; border-width: 1px; border-radius: 20px; margin-right: 25px">Sự kiện</a>
-    <a href="#" class="w3-bar-item w3-button light-grey " style="margin-top: 4px; border-style: ridge; border-width: 1px; border-radius: 20px; margin-right: 25px">Thành viên</a>
-    <a href="#" class="w3-bar-item w3-button light-grey " style="margin-top: 4px; border-style: ridge; border-width: 1px; border-radius: 20px; margin-right: 25px">Liên hệ</a>
-    <a href="#" class="w3-bar-item w3-button light-grey " style="margin-top: 4px; border-style: ridge; border-width: 1px; border-radius: 20px;">Đăng nhập</a>
+  <nav class="navbar navbar-default navbar-fixed-top" id="in">
+<!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">GDG Mekong</a>
+-->
+  <div class="w3-bar " style="bottom:-16px; padding: 5px;" >
+    <a href="#" class="w3-bar-item w3-btn" >Giới thiệu </a>
+    <a href="gdg.html" class="w3-bar-item w3-btn">Khóa học</a>
+    <a href="#" class="w3-bar-item w3-btn" >Sự kiện</a>
+    <a href="#" class="w3-bar-item w3-btn " >Thành viên</a>
+    <a href="#" class="w3-bar-item w3-btn " >Liên hệ</a>
+    <a href="#" class="w3-bar-item w3-btn " >Đăng nhập</a>
     <form class="w3-bar-item" style="width: 400px; margin-left: 50px;" >
     <div class="input-group">
       <input type="text" class="form-control" size="50" placeholder="Nhập sự tên sự kiện" required >
@@ -65,37 +89,22 @@
     </div>
   </form>
   </div>
-  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+  </nav>
+  <div class=" w3-padding-large w3-wide w3-text-light-grey w3-center" style="margin-top: 70px">
     <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GDG Mekong</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">......</h5>
     <h3 class="w3-hide-medium w3-hide-small">AT Group Office CT</h3>
   </div>
   </div>
-
-
-<!-- Navbar on small screens -->
-<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
-<div class="w3-bar w3-light-grey">
-  <a href="#" class="w3-bar-item w3-button w3-hover-red ">Giới thiệu </a>
-    <a href="gdg.html" class="w3-bar-item w3-button w3-hover-red ">Khóa học</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-red ">Sự kiện</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-red ">Thành viên</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-red ">Liên hệ</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-red ">Đăng nhập</a>
-</div>
-
-</div>
+  
 
 <!-- Page content -->
-<div style=" margin-top: 4px; padding: 10px; color: #ff3030;" class="w3-center"> 
-  <h3> SỰ KIỆN NỔI BẬT </h3>
-</div>
   <div id="pricing" class="container-fluid">
   <div class="row slideanim">
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Msite Women Techmakers</h4>
+          <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
           <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Hồ Thị Nhâm</p>
@@ -112,7 +121,7 @@
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Msite Women Techmakers</h4>
+          <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
           <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Hồ Thị Nhâm</p>
@@ -129,7 +138,7 @@
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Msite Women Techmakers</h4>
+          <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
           <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Hồ Thị Nhâm</p>
@@ -146,7 +155,7 @@
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Msite Women Techmakers</h4>
+          <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
           <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Nguyễn Văn Hua</p>
@@ -163,7 +172,7 @@
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Certification Of Google</h4>
+          <h2>Certification Of Google</h2>
         </div>
         <div class="panel-body">
           <p>Sự kiện miễn phí cho học sinh sinh viên " Mobile Site Certification Of Google "</p>

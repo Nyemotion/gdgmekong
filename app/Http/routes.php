@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('qlsk');
+    return view('home')
 });
