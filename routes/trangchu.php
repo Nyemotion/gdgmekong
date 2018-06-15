@@ -76,7 +76,7 @@ a:focus{
   <div class="w3-bar " style="bottom:-16px; padding: 5px;" >
     <a href="index.php" class="w3-bar-item w3-btn" >Giới thiệu </a>
     <a href="khoahoc.php" class="w3-bar-item w3-btn">Khóa học</a>
-    <a href="index.php" class="w3-bar-item w3-btn" >Sự kiện</a>
+    <a href="qlsk.php" class="w3-bar-item w3-btn" >Sự kiện</a>
     <a href="thanhvien.php" class="w3-bar-item w3-btn " >Thành viên</a>
     <a href="#" class="w3-bar-item w3-btn " >Liên hệ</a>
     <a href="#" class="w3-bar-item w3-btn " >Đăng nhập</a>
@@ -91,88 +91,89 @@ a:focus{
   </div>
   </nav>
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+  <!--<div class=" w3-padding-large w3-wide w3-text-light-grey w3-center" style="margin-top: 70px">-->
     <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GDG Mekong</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">......</h5>
     <h3 class="w3-hide-medium w3-hide-small">AT Group Office CT</h3>
   </div>
   </div>
-
-<!-- Page content -->
-
-<div class="jumbotron ">
-              
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-    <div class="container-fluid text-center bg-grey" id="tn">
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3">
+          <h1 class="my-4">Câu lạc bộ</h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item">Giới thiệu sơ lược</a>
+            <a href="#" class="list-group-item">Sự kiện mới</a>
+            <a href="#" class="list-group-item">Sự kiện đã diễn ra</a>
+            <a href="#" class="list-group-item">Số lượng thành viên hiện tại</a>
+            <a href="#" class="list-group-item">Số lượng thành viên đang cập nhật</a>
+          </div>
+        </div>
+    <div class="col-sm-8 w3-center">
+      <h3 style ="color: #f4511e;">Giới thiệu về GDG Mekong</h3>
+      <img src="image/slide3.jpg" alt ="image"/>
+      <br>
+      <small class="text-muted">Organized by GDG Mekong</small>
+      <h5> GDG Mekong (Google Developer Group Mekong) – Cộng đồng lập trình viên Google tại Đồng bằng Sông Cửu Long)
       
- 
-          <div class="row">
-    <div class="col-sm-12">
+      <h5>Nhóm nhà phát triển Google (GDG) Mekong tổ chức các sự kiện tương tác như hack-a-thon, codelab, devfest.Các sự kiện của chúng tôi (trực tuyến hoặc ngoại tuyến) sẽ luôn miễn phí và mở cửa cho công chúng. Chúng tôi không chỉ tập trung vào các nhà phát triển nói chung mà còn cho các thành viên khác trong cộng đồng như học sinh trung học, trẻ em, các nhà phát triển nữ. Chúng tôi mong muốn cung cấp cơ hội công bằng cho mọi người trong cộng đồng để tiếp cận công nghệ mới, hòa nhập và vui chơi.</h5>
+      <div>
+      <h3 style ="color: #f4511e;">Sự kiện mới </h3>
+      <h5> Sự kiện I/O GDG Mekong</h5>
+      <img src ="image/5.png" alt = "image" />
+      <br>
+      <small class="text-muted">Organized by GDG Mekong</small>
+      <p> Sự kiện dành cho sinh viên học sinh</p>
+      </div>
+      <div>
+      <h3 style ="color: #f4511e;">Sự kiện đã diễn ra </h3>
+      <p style="font-size: 15px"> Hướng dẫn dựng video chủ đề "kỷ niệm tuổi học trò" Trường THPT Hồ Thị Nhâm </p>
+      <img src="image/6.jpg" alt="image" />
+      <br>
+      <small class ="text-muted">Organized by GDG Mekong</small>
+      </div>
+      
+    <div>
+       <h5> Sự kiện hướng dẫn quay dựng - sản xuất phim THPT Nguyễn Văn Hai</h5>
+       
+       <img src ="image/6.jpg" alt ="image"/>
+      </div>
+       <div
+       <small class ="text-muted"> Sunday, May 27,2018 ,7:00 PM </small>
+       <h5> MSite Women Techmakers - High School Nguyễn Văn Hai </h5>
+       <img src ="image/2.jpg" alt="image"/>
+       <br>
+       <small class="text-muted">Hosted by GDG Mekong</small>
+     </div>
+    </div>
+  </div>
+      <!--<p style ="color:#f4511e;"> Số lượng thành viên hiện tại:15089</p>
+      <p style ="color:#f4511e;"> Số lượng thành viên đang cập nhật:5476</p>-->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3">
+          <h1 class="my-4">Thống kê</h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item ">Số lượng thành viên hiện tại: 15089</a>
+            <a href="#" class="list-group-item ">Số lượng thành viên đang cập nhật :5476</a>
+          </div>
+        </div>
 
-      <h4 style ="color: #1c1c1c;">Giới thiệu chung </h4>
-      <h5 style ="color: #1c1c1c;">Tổng số thành viên: 1081 thành viên </h5>
-      <h5 style ="color: #1c1c1c;">Những sự kiện sắp tới</h5>
-       <img src="images/templatemo_image_01.jpg" alt="image" />
-       <p style="color: #1c1c1c"> giao lưu học hỏi</p>
-    </div>
-  </div>
-</div>  
-<div class="col-sm-8">
-  <h2 style ="color: #1c1c1c;">Tất cả thành viên</h2>
-    <div class="col-sm-4">
-      <img src="images/templatemo_image_02.jpg" alt="image" />
-    </div>
-    <div class="col-sm-5">
-      <h5 style ="color: #1c1c1c;"> Võ Thị My
-      <br> Thành viên từ ngày 12/04/2018
-      <br> Email:myvo@gmail.com
-      </h5>
-    </div>
-    <br>
-      <div class="text-align = margin-left">
-        <br>
-    <button type="submit" class="w3-button  " style="background-color: #f4511e;">Tham gia</button>
-    <button type="submit" class="w3-button  " style=";background-color: #f4511e;">Đánh giá</button>
-  </div>
-     <!-- <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff margin-left:50px;" onclick="document.getElementById('chitiet').style.display='block'">Đánh giá</button>-->
-        
-        <div id="chitiet" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom w3-padding-large">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('chitiet').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
-      <h1 class="w3-center w3-margin w3-light-grey w3-padding">Đánh giá</h1> <br>
-     <p class="w3-center">...............................................................................</p>
-   
-  </div>
-</div>
-</div>
-      </div>      
-    </div>    
-  </div>
-</div>
-</div>
 
-<div class="col-sm-4">
-  <h3 style ="color: #1c1c1c;">Ban quản trị </h3>
-    <div class="col-sm-4">
-      <img src="images/templatemo_image_03.jpg" alt="image" />
-    </div>
-    <div class="col-sm-8">
-      <h5 style ="color: #1c1c1c;"> Võ Thị Hương
-    <br> Thành viên từ ngày 13/04/2018
-    <br> Email:huongvo@gmail.com
-    </h5>
-    </div>
-  </div>
+
+
+
+
   <!-- Contact -->
   <div class="footer" id="footer">
     <p>
       Địa chỉ: c15 khu dân cư Trần Khánh Dư, phường Xuân Khánh, quận Ninh Kiều, thành phố Cần Thơ.<br />
-      Email: tutrinh@gmail.com <br />
+      Email: tt@gmail.com <br />
       SĐT: 07103840483  <br />
-      Face: <a href="https://www.facebook.com/trinhtu.052897">Trinh Bibooo</a>
+      Face: <a href="//www.facebook.com/trinh.bui.3304673">Pig Bull</a>
     </p>
-    <footer>CHỈ CÓ THỂ LÀ TÚ TRINH</footer>
+    <footer>CHỈ CÓ THỂ LÀ PIG BULL</footer>
   </div>
 <script>
 function w3_open() {

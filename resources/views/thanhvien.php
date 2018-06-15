@@ -76,7 +76,7 @@ a:focus{
   <div class="w3-bar " style="bottom:-16px; padding: 5px;" >
     <a href="index.php" class="w3-bar-item w3-btn" >Giới thiệu </a>
     <a href="khoahoc.php" class="w3-bar-item w3-btn">Khóa học</a>
-    <a href="qlsk.php" class="w3-bar-item w3-btn" >Sự kiện</a>
+    <a href="index.php" class="w3-bar-item w3-btn" >Sự kiện</a>
     <a href="thanhvien.php" class="w3-bar-item w3-btn " >Thành viên</a>
     <a href="#" class="w3-bar-item w3-btn " >Liên hệ</a>
     <a href="#" class="w3-bar-item w3-btn " >Đăng nhập</a>
@@ -91,6 +91,7 @@ a:focus{
   </div>
   </nav>
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+  <!--<div class=" w3-padding-large w3-wide w3-text-light-grey w3-center" style="margin-top: 70px">-->
     <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GDG Mekong</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">......</h5>
     <h3 class="w3-hide-medium w3-hide-small">AT Group Office CT</h3>
@@ -98,127 +99,79 @@ a:focus{
   </div>
 
 <!-- Page content -->
-  <div id="pricing" class="container-fluid">
-  <div class="row slideanim">
-    <div class="col-sm-3 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h4>Khóa học C# từ GDG MEKONG</h4>
-        </div>
-        <div class="panel-body">
-          <p>Học C# từ thầy Nguyễn Văn A</p>
-<p>Học phí khóa học: 200.000 đồng</P>
-<p>Thời gian học: 60 ngày</p> 
-<p>Giáo viên: Nguyễn Văn A</p>
-          <img src="img/b.png" alt="" style = "height: 200px; width: 200px;">
 
-        </div>
-        <div class="panel-footer">
-          <h4>29-4-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
-        </div>
-      </div>      
-    </div> 
-    <div class="col-sm-3 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h4>Khóa học HTML từ GDG MEKONG</h4>
-        </div>
-        <div class="panel-body">
-		<p>Học HTML từ thầy Nguyễn Văn B</p>
-          <p>Học phí khóa học: 400.000 đồng</P>
-<p>Thời gian học: 90 ngày</p> 
-<p>Giáo viên: Nguyễn Văn B</p>
-          <img src="img/c.png" alt="" style = "height: 200px; width: 200px;">
+<div class="jumbotron ">
+              
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-        </div>
-        <div class="panel-footer">
-          <h4>30-06-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
-        </div>
-      </div>      
-    </div> 
-    <div class="col-sm-3 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h4>Khóa học JQUERY từ GDG MEKONG</h4>
-        </div>
-        <div class="panel-body">
-          <p>Học HTML từ thầy Nguyễn Văn C</p>
-          <p>Học phí khóa học: 600.000 đồng</P>
-<p>Thời gian học: 120 ngày</p> 
-<p>Giáo viên: Nguyễn Văn C</p>
-          <img src="img/d.png" alt="" style = "height: 200px; width: 200px;">
+    <div class="container-fluid text-center bg-grey" id="tn">
+      
+ 
+          <div class="row">
+    <div class="col-sm-12">
 
-        </div>
-        <div class="panel-footer">
-          <h4>13-05-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
-        </div>
-      </div>      
-    </div>         
-    <div class="col-sm-3 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h4>Khóa học PHP từ GDG MEKONG</h4>
-        </div>
-        <div class="panel-body">
-          <p>Học HTML từ thầy Nguyễn Văn D</p>
-          <p>Học phí khóa học: 800.000 đồng</P>
-<p>Thời gian học: 150 ngày</p> 
-<p>Giáo viên: Nguyễn Văn D</p>
-         <img src="img/7.jpg" alt="" style = "height: 200px; width: 200px;">
-
-        </div>
-        <div class="panel-footer">
-          <h4>10-04-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
-        </div>
-      </div>      
-    </div>       
-    <div class="col-sm-3 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h4>Khóa học JavaScript từ GDG MEKONG</h4>
-        </div>
-        <div class="panel-body">
-         <p>Học HTML từ thầy Nguyễn Văn E</p>
-          <p>Học phí khóa học: 1.000.000 đồng</P>
-<p>Thời gian học: 150 ngày</p> 
-<p>Giáo viên: Nguyễn Văn E</p>
-      <img src="img/8.jpg" alt="" style = "height: 200px; width: 200px;">
-        </div>
-        <div class="panel-footer">
-          <h4>29-01-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
-        </div>
+      <h2 style ="color: #1c1c1c;">Giới thiệu chung </h2>
+        <p style ="color: #1c1c1c;">Tổng số thành viên: 1081 thành viên </p>
+        <p style ="color: #1c1c1c;">Những sự kiện sắp tới</p>
+       <img src="images/templatemo_image_01.jpg" alt="image" />
+       <p style="color: #1c1c1c"> giao lưu học hỏi</p>
+    </div>
+  </div>
+</div>  
+<div class="col-sm-8">
+  <h2 style ="color: #1c1c1c;">Tất cả thành viên</h2>
+    <div class="col-sm-4">
+      <img src="images/templatemo_image_02.jpg" alt="image" />
+    </div>
+    <div class="col-sm-5">
+      <h4 style ="color: #1c1c1c;"> Võ Thị My
+      <br> Thành viên từ ngày 12/04/2018
+      <br> Ngày sinh: 06/02/1998
+      <br> Email:myvo@gmail.com
+      <br> Địa chỉ:eargaerg
+      </h4>
+    </div>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff margin-left:20px;" onclick="document.getElementById('chitiet').style.display='block'">Đánh giá</button>
+        
+        <div id="chitiet" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-padding-large">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('chitiet').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
+      <h1 class="w3-center w3-margin w3-light-grey w3-padding">Đánh giá</h1> <br>
+     <p class="w3-center">...............................................................................</p>
+   
+  </div>
+</div>
+</div>
       </div>      
     </div>    
   </div>
 </div>
-<div id="chitiet" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom w3-padding-large">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('chitiet').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
-      <h1 class="w3-center w3-margin w3-light-grey w3-padding">Chi tiết sự kiện</h1> <br>
-     <p class="w3-center">...............................................................................</p>
-    <div class="text-center">
-    <button type="submit" class="w3-button  " style="background-color: #f4511e;">Tham gia</button>
-    <button type="submit" class="w3-button  " style=";background-color: #f4511e;">Đánh giá</button>
-  </div>
-  </div>
-</div>
 </div>
 
+<div class="col-sm-4">
+  <h3 style ="color: #1c1c1c;">Ban quản trị </h3>
+    <div class="col-sm-4">
+      <img src="images/templatemo_image_03.jpg" alt="image" />
+    </div>
+    <div class="col-sm-8">
+      <h5 style ="color: #1c1c1c;"> Võ Thị Hương
+    <br> Thành viên từ ngày 13/04/2018
+    <br> Ngày sinh: 25/10/1989
+    <br> Email:huongvo@gmail.com
+    <br>Địa chỉ: aedgsdf
+    </h5>
+    </div>
+  </div>
   <!-- Contact -->
   <div class="footer" id="footer">
     <p>
       Địa chỉ: c15 khu dân cư Trần Khánh Dư, phường Xuân Khánh, quận Ninh Kiều, thành phố Cần Thơ.<br />
       Email: tutrinh@gmail.com <br />
       SĐT: 07103840483  <br />
-      Facebook: <a href="https://www.facebook.com/trinhtu.052897">Trinh Bibooo</a>
+      Face: <a href="https://www.facebook.com/trinhtu.052897">Trinh Bibooo</a>
     </p>
-    <footer>CHỈ CÓ THỂ LÀ TÚ TRINH QUÁ TÀO LAO</footer>
+    <footer>CHỈ CÓ THỂ LÀ TÚ TRINH</footer>
   </div>
 <script>
 function w3_open() {

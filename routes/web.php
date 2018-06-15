@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('hi', function () {
+    echo "hiiiiiiio";
+});
+Route::get('cho', function () {
+    return view('qlsk');
+});
+Route::get('tuyen','Controller@trangchu');
+

@@ -76,7 +76,7 @@ a:focus{
   <div class="w3-bar " style="bottom:-16px; padding: 5px;" >
     <a href="index.php" class="w3-bar-item w3-btn" >Giới thiệu </a>
     <a href="khoahoc.php" class="w3-bar-item w3-btn">Khóa học</a>
-    <a href="index.php" class="w3-bar-item w3-btn" >Sự kiện</a>
+    <a href="qlsk.php" class="w3-bar-item w3-btn" >Sự kiện</a>
     <a href="thanhvien.php" class="w3-bar-item w3-btn " >Thành viên</a>
     <a href="#" class="w3-bar-item w3-btn " >Liên hệ</a>
     <a href="#" class="w3-bar-item w3-btn " >Đăng nhập</a>
@@ -90,80 +90,16 @@ a:focus{
   </form>
   </div>
   </nav>
-  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+  <div class=" w3-padding-large w3-wide w3-text-light-grey w3-center" style="margin-top: 70px">
     <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GDG Mekong</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">......</h5>
     <h3 class="w3-hide-medium w3-hide-small">AT Group Office CT</h3>
   </div>
   </div>
-
-<!-- Page content -->
-
-<div class="jumbotron ">
-              
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-    <div class="container-fluid text-center bg-grey" id="tn">
-      
- 
-          <div class="row">
-    <div class="col-sm-12">
-
-      <h4 style ="color: #1c1c1c;">Giới thiệu chung </h4>
-      <h5 style ="color: #1c1c1c;">Tổng số thành viên: 1081 thành viên </h5>
-      <h5 style ="color: #1c1c1c;">Những sự kiện sắp tới</h5>
-       <img src="images/templatemo_image_01.jpg" alt="image" />
-       <p style="color: #1c1c1c"> giao lưu học hỏi</p>
-    </div>
+  <div style="color: #1c1c1c">
+    <h1>Chào</h1>
   </div>
-</div>  
-<div class="col-sm-8">
-  <h2 style ="color: #1c1c1c;">Tất cả thành viên</h2>
-    <div class="col-sm-4">
-      <img src="images/templatemo_image_02.jpg" alt="image" />
-    </div>
-    <div class="col-sm-5">
-      <h5 style ="color: #1c1c1c;"> Võ Thị My
-      <br> Thành viên từ ngày 12/04/2018
-      <br> Email:myvo@gmail.com
-      </h5>
-    </div>
-    <br>
-      <div class="text-align = margin-left">
-        <br>
-    <button type="submit" class="w3-button  " style="background-color: #f4511e;">Tham gia</button>
-    <button type="submit" class="w3-button  " style=";background-color: #f4511e;">Đánh giá</button>
-  </div>
-     <!-- <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff margin-left:50px;" onclick="document.getElementById('chitiet').style.display='block'">Đánh giá</button>-->
-        
-        <div id="chitiet" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom w3-padding-large">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('chitiet').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
-      <h1 class="w3-center w3-margin w3-light-grey w3-padding">Đánh giá</h1> <br>
-     <p class="w3-center">...............................................................................</p>
-   
-  </div>
-</div>
-</div>
-      </div>      
-    </div>    
-  </div>
-</div>
-</div>
 
-<div class="col-sm-4">
-  <h3 style ="color: #1c1c1c;">Ban quản trị </h3>
-    <div class="col-sm-4">
-      <img src="images/templatemo_image_03.jpg" alt="image" />
-    </div>
-    <div class="col-sm-8">
-      <h5 style ="color: #1c1c1c;"> Võ Thị Hương
-    <br> Thành viên từ ngày 13/04/2018
-    <br> Email:huongvo@gmail.com
-    </h5>
-    </div>
-  </div>
   <!-- Contact -->
   <div class="footer" id="footer">
     <p>

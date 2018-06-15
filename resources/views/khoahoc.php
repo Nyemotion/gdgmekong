@@ -91,6 +91,7 @@ a:focus{
   </div>
   </nav>
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+  <!--<div class=" w3-padding-large w3-wide w3-text-light-grey w3-center" style="margin-top: 70px">-->
     <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GDG Mekong</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">......</h5>
     <h3 class="w3-hide-medium w3-hide-small">AT Group Office CT</h3>
@@ -103,7 +104,7 @@ a:focus{
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học C# từ GDG MEKONG</h4>
+          <h2>Khóa học C# từ GDG MEKONG</h2>
         </div>
         <div class="panel-body">
           <p>Học C# từ thầy Nguyễn Văn A</p>
@@ -122,7 +123,7 @@ a:focus{
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học HTML từ GDG MEKONG</h4>
+          <h2>Khóa học HTML từ GDG MEKONG</h2>
         </div>
         <div class="panel-body">
 		<p>Học HTML từ thầy Nguyễn Văn B</p>
@@ -141,7 +142,7 @@ a:focus{
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học JQUERY từ GDG MEKONG</h4>
+          <h2>Khóa học JQUERY từ GDG MEKONG</h2>
         </div>
         <div class="panel-body">
           <p>Học HTML từ thầy Nguyễn Văn C</p>
@@ -160,7 +161,7 @@ a:focus{
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học PHP từ GDG MEKONG</h4>
+          <h2>Khóa học PHP từ GDG MEKONG</h2>
         </div>
         <div class="panel-body">
           <p>Học HTML từ thầy Nguyễn Văn D</p>
@@ -179,7 +180,7 @@ a:focus{
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học JavaScript từ GDG MEKONG</h4>
+          <h2>Khóa học JavaScript từ GDG MEKONG</h2>
         </div>
         <div class="panel-body">
          <p>Học HTML từ thầy Nguyễn Văn E</p>

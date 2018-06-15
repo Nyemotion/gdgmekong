@@ -91,11 +91,13 @@ a:focus{
   </div>
   </nav>
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GDG Mekong</h1>
+  <!--<div class=" w3-padding-large w3-wide w3-text-light-grey w3-center" style="margin-top: 70px">-->
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge ">GDG Mekong</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">......</h5>
     <h3 class="w3-hide-medium w3-hide-small">AT Group Office CT</h3>
   </div>
   </div>
+  
 
 <!-- Page content -->
   <div id="pricing" class="container-fluid">
@@ -103,94 +105,84 @@ a:focus{
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học C# từ GDG MEKONG</h4>
+          <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
-          <p>Học C# từ thầy Nguyễn Văn A</p>
-<p>Học phí khóa học: 200.000 đồng</P>
-<p>Thời gian học: 60 ngày</p> 
-<p>Giáo viên: Nguyễn Văn A</p>
-          <img src="img/b.png" alt="" style = "height: 200px; width: 200px;">
+          <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Hồ Thị Nhâm</p>
+          <img src="image/5.png" alt="" style = "height: 200px; width: 200px;">
 
         </div>
         <div class="panel-footer">
           <h4>29-4-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Đánh giá</button>
         </div>
       </div>      
     </div> 
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học HTML từ GDG MEKONG</h4>
+          <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
-		<p>Học HTML từ thầy Nguyễn Văn B</p>
-          <p>Học phí khóa học: 400.000 đồng</P>
-<p>Thời gian học: 90 ngày</p> 
-<p>Giáo viên: Nguyễn Văn B</p>
-          <img src="img/c.png" alt="" style = "height: 200px; width: 200px;">
+          <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Hồ Thị Nhâm</p>
+          <img src="image/5.png" alt="" style = "height: 200px; width: 200px;">
 
         </div>
         <div class="panel-footer">
-          <h4>30-06-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <h4>29-4-2018</h4>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Đánh giá</button>
         </div>
       </div>      
     </div> 
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học JQUERY từ GDG MEKONG</h4>
+          <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
-          <p>Học HTML từ thầy Nguyễn Văn C</p>
-          <p>Học phí khóa học: 600.000 đồng</P>
-<p>Thời gian học: 120 ngày</p> 
-<p>Giáo viên: Nguyễn Văn C</p>
-          <img src="img/d.png" alt="" style = "height: 200px; width: 200px;">
+          <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Hồ Thị Nhâm</p>
+          <img src="image/5.png" alt="" style = "height: 200px; width: 200px;">
 
         </div>
         <div class="panel-footer">
-          <h4>13-05-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <h4>29-4-2018</h4>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Đánh giá</button>
         </div>
       </div>      
     </div>         
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học PHP từ GDG MEKONG</h4>
+          <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
-          <p>Học HTML từ thầy Nguyễn Văn D</p>
-          <p>Học phí khóa học: 800.000 đồng</P>
-<p>Thời gian học: 150 ngày</p> 
-<p>Giáo viên: Nguyễn Văn D</p>
-         <img src="img/7.jpg" alt="" style = "height: 200px; width: 200px;">
+          <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Nguyễn Văn Hua</p>
+         <img src="image/6.jpg" alt="" style = "height: 200px; width: 200px;">
 
         </div>
         <div class="panel-footer">
-          <h4>10-04-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <h4>03-04-2018</h4>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Đánh giá</button>
         </div>
       </div>      
     </div>       
     <div class="col-sm-3 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h4>Khóa học JavaScript từ GDG MEKONG</h4>
+          <h2>Certification Of Google</h2>
         </div>
         <div class="panel-body">
-         <p>Học HTML từ thầy Nguyễn Văn E</p>
-          <p>Học phí khóa học: 1.000.000 đồng</P>
-<p>Thời gian học: 150 ngày</p> 
-<p>Giáo viên: Nguyễn Văn E</p>
-      <img src="img/8.jpg" alt="" style = "height: 200px; width: 200px;">
+          <p>Sự kiện miễn phí cho học sinh sinh viên " Mobile Site Certification Of Google "</p>
+      <img src="image/4.png" alt="" style = "height: 200px; width: 200px;">
         </div>
         <div class="panel-footer">
           <h4>29-01-2018</h4>
-          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Xem chi tiết</button>
+          <button class="btn btn-lg" style="background-color: #ff3030; color: #ffffff; height: 40px;" onclick="document.getElementById('chitiet').style.display='block'">Đánh giá</button>
         </div>
       </div>      
     </div>    
@@ -216,9 +208,9 @@ a:focus{
       Địa chỉ: c15 khu dân cư Trần Khánh Dư, phường Xuân Khánh, quận Ninh Kiều, thành phố Cần Thơ.<br />
       Email: tutrinh@gmail.com <br />
       SĐT: 07103840483  <br />
-      Facebook: <a href="https://www.facebook.com/trinhtu.052897">Trinh Bibooo</a>
+      Face: <a href="https://www.facebook.com/trinhtu.052897">Trinh Bibooo</a>
     </p>
-    <footer>CHỈ CÓ THỂ LÀ TÚ TRINH QUÁ TÀO LAO</footer>
+    <footer>CHỈ CÓ THỂ LÀ TÚ TRINH</footer>
   </div>
 <script>
 function w3_open() {
