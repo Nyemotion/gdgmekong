@@ -74,10 +74,10 @@ a:focus{
       <a class="navbar-brand" href="#myPage">GDG Mekong</a>
 -->
   <div class="w3-bar " style="bottom:-16px; padding: 5px;" >
-    <a href="index.php" class="w3-bar-item w3-btn" >Giới thiệu </a>
-    <a href="khoahoc.php" class="w3-bar-item w3-btn">Khóa học</a>
-    <a href="qlsk.php" class="w3-bar-item w3-btn" >Sự kiện</a>
-    <a href="thanhvien.php" class="w3-bar-item w3-btn " >Thành viên</a>
+    <a href="trangchu.blade.php" class="w3-bar-item w3-btn" >Giới thiệu </a>
+    <a href="course.blade.php" class="w3-bar-item w3-btn">Khóa học</a>
+    <a href="event.blade.php" class="w3-bar-item w3-btn" >Sự kiện</a>
+    <a href="member.blade.php" class="w3-bar-item w3-btn " >Thành viên</a>
     <a href="#" class="w3-bar-item w3-btn " >Liên hệ</a>
     <a href="#" class="w3-bar-item w3-btn " >Đăng nhập</a>
     <form class="w3-bar-item" style="width: 400px; margin-left: 50px;" >

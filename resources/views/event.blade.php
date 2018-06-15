@@ -36,12 +36,12 @@
       border-bottom-right-radius: 0px;
   }
 #header{
-  background-image: url('image/bc1.jpg');
+  background-image: url('image/nen.png');
   height: 400px;
   width: 1500px;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: blue;
   font-size: 17px;
   z-index: 20;
 
@@ -51,20 +51,22 @@ a{
 }
 a:hover{
   text-decoration: none;
-  border-color: #1c1c1c;
+  border-color: blue;
   border-radius: 30px;
+  color: blue;
 }
 a:focus{
   text-decoration: none;
 }
 #in{
-  background-image: url('image/bc1.jpg');
+  background-image: url('image/nen.png');
   z-index: 9;
+  opacity: 0.6;
 }
 
 </style>
 <body>
-<div id="header" class="w3-center">
+<div id="header" class="w3-center text-center">
   <nav class="navbar navbar-default navbar-fixed-top" id="in">
 <!--  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -74,26 +76,27 @@ a:focus{
       <a class="navbar-brand" href="#myPage">GDG Mekong</a>
 -->
   <div class="w3-bar " style="bottom:-16px; padding: 5px;" >
-    <a href="#" class="w3-bar-item w3-btn" >Giới thiệu </a>
-    <a href="gdg.html" class="w3-bar-item w3-btn">Khóa học</a>
-    <a href="#" class="w3-bar-item w3-btn" >Sự kiện</a>
-    <a href="#" class="w3-bar-item w3-btn " >Thành viên</a>
-    <a href="#" class="w3-bar-item w3-btn " >Liên hệ</a>
-    <a href="#" class="w3-bar-item w3-btn " >Đăng nhập</a>
+    <a href="#" class="w3-bar-item w3-btn" ><b>Giới thiệu </b></a>
+    <a href="gdg.html" class="w3-bar-item w3-btn"><b>Khóa học </b></a>
+    <a href="#" class="w3-bar-item w3-btn" ><b>Sự kiện</b></a>
+    <a href="#" class="w3-bar-item w3-btn " ><b>Thành viên</b></a>
+    <a href="#" class="w3-bar-item w3-btn " ><b>Liên hệ</b></a>
+    <a href="#" class="w3-bar-item w3-btn " ><b>Đăng nhập</b></a>
     <form class="w3-bar-item" style="width: 400px; margin-left: 50px;" >
     <div class="input-group">
       <input type="text" class="form-control" size="50" placeholder="Nhập sự tên sự kiện" required >
       <div class="input-group-btn">
-        <button type="button" class="btn w3-hover-light-grey" style="background-color: #ff3030;">Tìm kiếm</button>
+        <button type="button" class="btn w3-hover-light-grey" style="background-color: #1c1c1c;">Tìm kiếm</button>
       </div>
     </div>
   </form>
   </div>
   </nav>
-  <div class=" w3-padding-large w3-wide w3-text-light-grey w3-center" style="margin-top: 70px">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GDG Mekong</h1>
+  <div class="w3-display-middle w3-padding-large w3-border w3-border-blue  w3-text-blue w3-center" style=" margin-bottom: 50px;">
+    <!-- <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">GDG Mekong</h1>
     <h5 class="w3-hide-large" style="white-space:nowrap">......</h5>
-    <h3 class="w3-hide-medium w3-hide-small">AT Group Office CT</h3>
+    <h3 class="w3-hide-medium w3-hide-small">AT Group Office CT</h3> -->
+    <img src="image/LogoGDG.svg" alt="">
   </div>
   </div>
   
@@ -107,7 +110,7 @@ a:focus{
           <h2>Msite Women Techmakers</h2>
         </div>
         <div class="panel-body">
-          <p>Là sự kiện tham gia trải nghiệm các sản phẩm công nghệ dành cho các bạn THPT Hồ Thị Nhâm</p>
+          <p>@lang('event.event')</p>
           <img src="image/5.png" alt="" style = "height: 200px; width: 200px;">
 
         </div>
